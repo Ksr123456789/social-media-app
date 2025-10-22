@@ -3,8 +3,6 @@ import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
 import connectDB from "./utils/db.js";
 
-const PORT = process.env.PORT || 3000;
-
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
